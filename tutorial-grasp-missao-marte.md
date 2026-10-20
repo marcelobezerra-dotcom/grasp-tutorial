@@ -1,5 +1,10 @@
 # Tutorial: Migrando o Exercício 10 para GRASP — Passo a Passo
 
+> **Versão atual:** este texto registra a primeira extração do exercício para GRASP.
+> Os trechos abaixo são históricos. A preparação posterior para interface gráfica
+> está no [guia atualizado](src/graspexercicio10/README.md), que documenta as APIs
+> atuais: controller sem console, ações tipadas e estado imutável.
+
 > **Contexto:** Este tutorial parte do código **completo e funcional** do Exercício 10
 > (`exercicio10/`) e mostra **passo a passo** como migrá-lo para o pacote
 > `graspexercicio10/`, aplicando cada um dos **9 padrões GRASP**.

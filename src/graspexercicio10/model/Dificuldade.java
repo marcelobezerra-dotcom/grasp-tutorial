@@ -11,6 +11,11 @@ package graspexercicio10.model;
 public enum Dificuldade {
     FACIL, MEDIO, DIFICIL;
 
+    // Information Expert: a dificuldade reúne os parâmetros da missão.
+    public int getQuantidadePassageiros() { return this == FACIL ? 4 : 5; }
+    public int getQuantidadeAsteroides() { return this == FACIL ? 1 : this == DIFICIL ? 3 : 2; }
+    public int getQuantidadeInimigos() { return getQuantidadeAsteroides(); }
+
     public int getPontuacaoInicial() {
         switch (this) {
             case FACIL:
