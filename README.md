@@ -7,6 +7,7 @@ futura interface gráfica. O exercício original permanece em `src/exercicio10` 
 Leia o [guia do exemplo e da migração gráfica](src/graspexercicio10/README.md) para
 entender o controller, as regras da partida, o estado imutável e os nove princípios.
 As [apostilas](apostilas-grasp/README.md) complementam a discussão conceitual.
+O [tutorial completo](apostilas-grasp/tutorial-grasp-missao-marte.md) acompanha a refatoração passo a passo.
 
 ## Executar (JDK 11 ou superior)
 
